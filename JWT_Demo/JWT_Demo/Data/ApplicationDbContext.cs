@@ -13,7 +13,5 @@ namespace JWT_Demo.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-
-
     }
 }
