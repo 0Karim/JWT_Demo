@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 
 namespace JWT_Demo.Helpers
 {
@@ -13,6 +10,6 @@ namespace JWT_Demo.Helpers
 
         public string Audience { get; set; }
 
-        public string DurationInDays { get; set; }
+        public double DurationInDays { get; set; }
     }
 }

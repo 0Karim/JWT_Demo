@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using JWT_Demo.Models;
 using System.Threading.Tasks;
 
 namespace JWT_Demo.Services
 {
-    interface IAuthService
+    public interface IAuthService
     {
+        Task<AuthModel> RegisterAsync(RegisterModel model);
+
+         
     }
 }
